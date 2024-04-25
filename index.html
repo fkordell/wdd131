@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Kordell Farley">
+    <meta name="author" content="Kordell Farley">
+    <title>WDD 131 - Dynamic Web Fundamentals - Kordell Farley - Bio Page</title>
+    <link rel="stylesheet" href="styles/base.css">
+</head>
+<body>
+   <div class="container">
+    <header>
+        <h1>WDD 131: Dynamic Web Fundamentals - <span id="name"></span></h1>
+        <nav>
+            <a href="https://www.linkedin.com/">LinkdIn</a>
+            <a href="https://byui.instructure.com/">I-Learn</a>
+            <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/3?lang=eng&id=p6-p7#p6">Scripture</a>
+            <a href="">Final Project</a>
+        </nav>
+    </header>
+     <main>
+        <section class="card">
+            <h2>About Me</h2>
+            <div class="bio">
+                <p>My name is Kordell Farley, I am originally from a small town in Washington but currently live in Rexburg, Idaho with my wife and daughter. I am a senior and am set to  graduate in December with a degree in Web Design and Development. I love  being in  the  outdoors and anything to do with sports and being active. I served my mission in Cape Town South Africa which has been a tremendous blessing to me in my life.  </p>
+                <img src="./images/IMG_0712.JPG" alt="profile pic">
+            </div>
+                <h3>South Africa</h3>
+                <hr>
+            <div class="sa-bio">
+                <img src="images/SA-flag.png" alt="flag">
+                <p>South Africa is a country rich with diversity, known for its stunning landscapes and a melting pot of cultures. It is distinguished by its several ecosystems, from the beautiful beaches of the Western Cape, the lush winelands, to the dramatic cliffs at the Cape of Good Hope, and the dense bush of the Kruger National Park, which is populated with big game. The country has 11 official languages, which is a testament to its cultural diversity.</p>
+            </div>
+        </section>
+        <section class="card">
+            <div>
+                <h2>Web Dev Resources</h2>
+            </div>
+            <ul>
+                <li><a href="https://www.w3schools.com/">W3 Schools</a></li>
+                <li><a href="https://css-tricks.com/">CSS Tricks</a></li>
+                <li><a href="https://www.udemy.com/">Udemy</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/">MDN Web  Docs</a></li>
+                <li><a href="https://stackoverflow.com/">Stack Overflow</a></li>
+            </ul>
+        </section>
+     </main>
+     <footer>
+       <p>&copy;<span id="currentyear"></span> Kordell Farley Idaho</p>
+       <p><span id="lastModified"></span></p>
+     </footer>
+   </div>
+   <script src="./scripts/getDates.js"></script>
+</body>
+</html>
