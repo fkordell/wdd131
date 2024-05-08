@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Country or Place - WDD 131 Country or Place Assignment</title>
+        <meta name="description" content="Explore realtime  weather data and other fun and interesting facts about the country of South Africa">
+        <meta name="author"  content="Kordell Farley">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/place.css">
+        <script src="scripts/place.js" defer></script>
+    </head>
+<body>
+   <div class="container">
+    <header>
+        <div class="header-banner"></div>
+        <div class="header-banner1"></div>
+        <div class="header-banner2"></div>
+        <div class="header-banner3"></div>
+        <h1>South Africa</h1>
+        <div class="header-banner3"></div>
+        <div class="header-banner2"></div>
+        <div class="header-banner1"></div>
+        <div class="header-banner4"></div>
+    </header>
+    <main>
+        <div class="info-card">
+            <picture>
+                <source srcset="images/1500x1000.webp" media="(min-width: 1000px)">
+                <source srcset="images/capetownsa_1000x563.webp" media="(min-width: 500px)">
+                <img src="images/capetownsa_500x281.webp" alt="Cape Town South Africa" width="500" height="281">
+              </picture>
+            <div class="data-section">
+                <h2>Data</h2>
+                <div id="data-content">
+
+                </div>
+            </div>
+            <hr>
+            <div class="weather-section">
+                <h2>Weather</h2>
+                <img src="images/1530391_weather_clouds_sun_sunny_icon.svg" alt="weather icon">
+                <div id="weather-content">
+
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy;<span id="currentyear"></span> Kordell Farley Idaho </p>
+        <p><span id="lastModified"></span></p>
+    </footer>
+   </div>
+</body>
+</html>
