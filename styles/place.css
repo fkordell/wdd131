@@ -1,3 +1,8 @@
+:root {
+    --primary-color: #E03C31;   
+    --secondary-color: #007749; 
+}
+
 header{
     text-align: center;
     padding: 5px;
@@ -9,12 +14,12 @@ header{
     margin-left: 20px;
 }
 .header-banner{
-    background-color: #E03C31;
+    background-color: var(--primary-color);;
     height: 30px;
     
 }
 .header-banner1{
-    background-color: #007749;
+    background-color: var(--secondary-color);
     height: 20px;
     
 }
@@ -44,7 +49,7 @@ strong{
 hr{
     border: none;
     height: .5px;
-    background-color: #E03C31;
+    background-color: var(--primary-color);;
 
 }
 .info-card img{
@@ -54,8 +59,9 @@ hr{
 .weather-section img{
     width: 25%;
 }
+
 footer{
-    background-color: #E03C31;
+    background-color: var(--primary-color);;
     padding: 5px;
     color: black;
 }
@@ -107,7 +113,7 @@ footer{
         bottom: -15%;
     }
     h2{
-        background-color: rgba(0, 119, 73, 0.8) ;
+        background-color: var(--secondary-color); 
         padding: 20px;
         color: white;
         margin-left: -30px;
@@ -164,7 +170,7 @@ footer{
         border-radius: 8px;
     }
     .data-section{
-        top: 32%;
+        top: 35%;
         left: 2%;
     }
     .weather-section{
@@ -172,7 +178,7 @@ footer{
         bottom: -15%;
     }
     h2{
-        background-color: rgba(0, 119, 73, 0.8) ;
+        background-color: var(--secondary-color);
         padding: 20px;
         color: white;
         margin-left: -30px;
@@ -189,5 +195,14 @@ footer{
         flex: 0 0 120px; 
         text-align: center; 
         margin-right: 20px; 
+    }
+    .weather-section h2::after {
+        content: "⛅"; 
+        display: inline-block;
+        margin-left: 40px; 
+        font-size: 40px; 
+    }
+    .weather-section img{
+        display: none;
     }
 }
