@@ -125,7 +125,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function displayTemples(temples) {
         temples.forEach(temple => {
-            var card = document.createElement('figure');
+            var card = document.createElement('div');
             card.className = 'temple-card';
     
             var templeName = document.createElement('h3');
