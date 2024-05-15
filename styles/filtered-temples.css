@@ -84,7 +84,6 @@ main{
     gap: 20px;
 }
 .temple-card{
-    padding-bottom: 30px;
     text-align: center;
     background-color:lightgray;
     border: 2px solid black;
@@ -100,7 +99,6 @@ main{
     gap: 10px;
 }
 .temple-card img {   
-    margin: auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     display: block;  
 }

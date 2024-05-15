@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         {
           templeName: "Manti Utah",
-          location: "Manti, Utah, United States",
+          location: "Manti, Utah, U.S.",
           dedicated: "1888, May, 21",
           area: 74792,
           imageUrl:
@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         {
           templeName: "Payson Utah",
-          location: "Payson, Utah, United States",
+          location: "Payson, Utah, U.S.",
           dedicated: "2015, June, 7",
           area: 96630,
           imageUrl:
@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         {
           templeName: "Washington D.C.",
-          location: "Kensington, Maryland, United States",
+          location: "Kensington, Maryland, U.S.",
           dedicated: "1974, November, 19",
           area: 156558,
           imageUrl:
@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         {
             templeName: "Atlanta Georgia",
-            location: "Atlanta, Georgia, United States",
+            location: "Atlanta, Georgia, U.S.",
             dedicated: "1983, June, 4",
             area:  34500,
             imageUrl: "https://churchofjesuschrist.org/imgs/2f38e41532b2b5529266317c51193b68fdcf81d5/full/320%2C/0/default"
@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         {
             templeName: "Pocatello Idaho",
-            location:  "Pocatello, Idaho, United States",
+            location:  "Pocatello, Idaho, U.S.",
             dedicated: "2021, November, 7",
             area: 71125,
             imageUrl: "https://churchofjesuschrist.org/imgs/088138fe9fc211ec987feeeeac1e2a17f945bcb2/full/320%2C/0/default"
@@ -176,11 +176,11 @@ document.addEventListener('DOMContentLoaded', function() {
     
             var image = document.createElement('img');
             image.src = temple.imageUrl;
-            image.alt = temple.templeName + " - " + temple.location;  
+            image.alt = temple.templeName;  
             image.loading = 'lazy';
     
             var figcaption = document.createElement('figcaption');
-            figcaption.textContent = temple.location;  
+            figcaption.textContent = temple.templeName;  
     
           
             figure.appendChild(image);
