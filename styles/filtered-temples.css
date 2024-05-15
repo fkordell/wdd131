@@ -107,7 +107,9 @@ main{
 .temple-card p strong {
     font-weight: bold;
 }
-
+figcaption{
+    padding: 10px;
+}
 footer{
     text-align: center;
     background-color: coral;
