@@ -123,41 +123,9 @@ document.addEventListener('DOMContentLoaded', function() {
         displayTemples(filteredTemples);
     }
 
-    // function displayTemples(temples) {
-    //     temples.forEach(temple => {
-    //         var card = document.createElement('div');
-    //         card.className = 'temple-card';
-    
-    //         var templeName = document.createElement('h3');
-    //         templeName.textContent = temple.templeName;
-    
-    //         var location = document.createElement('p');
-    //         location.innerHTML = "<strong>Location:</strong> " + temple.location;
-    
-    //         var dedicated = document.createElement('p');
-    //         dedicated.innerHTML = "<strong>Dedicated:</strong> " + temple.dedicated;
-    
-    //         var area = document.createElement('p');
-    //         area.innerHTML = "<strong>Area:</strong> " + temple.area + " sq ft";
-    
-    //         var image = document.createElement('img');
-    //         image.src = temple.imageUrl;
-    //         image.alt = temple.templeName;
-    //         image.loading = 'lazy';
-    
-    //         card.appendChild(templeName);
-    //         card.appendChild(location);
-    //         card.appendChild(dedicated);
-    //         card.appendChild(area);
-    //         card.appendChild(image);
-    
-    //         imagesContainer.appendChild(card);
-    //     });
-    // } 
-
     function displayTemples(temples) {
         temples.forEach(temple => {
-            var card = document.createElement('div');
+            var card = document.createElement('figure');
             card.className = 'temple-card';
     
             var templeName = document.createElement('h3');
@@ -196,28 +164,6 @@ document.addEventListener('DOMContentLoaded', function() {
             imagesContainer.appendChild(card);
         });
     }
-    
-    
-    // function displayTemples(temples) {
-    //     temples.forEach(temple => {
-    //         var figure = document.createElement('figure');
-    //         figure.className = 'temple-card';
-    
-    //         var image = document.createElement('img');
-    //         image.src = temple.imageUrl;
-    //         image.alt = temple.templeName + " - " + temple.location;
-    //         image.loading = 'lazy';
-    
-    //         var figcaption = document.createElement('figcaption');
-    //         figcaption.innerHTML = `<strong>${temple.templeName}</strong><br><em>${temple.location}</em><br>Dedicated: ${temple.dedicated}<br>Area: ${temple.area} sq ft`;
-    
-    //         figure.appendChild(image);
-    //         figure.appendChild(figcaption);
-    
-    //         imagesContainer.appendChild(figure);
-    //     });
-    // }
-    
 
     function updateTitle(filterType) {
         titleElement.textContent = filterType.charAt(0).toUpperCase() + filterType.slice(1); 
