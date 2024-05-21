@@ -1,0 +1,57 @@
+header, footer{
+    background-color: plum;
+    padding: 5px;
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+form label{
+    font-weight: bold;
+}
+main{
+    padding: 20px;
+    text-align: center;
+}
+
+form input[type="text"],
+form input[type="date"],
+form select,
+form textarea {
+    width: 100%;
+    max-width: 500px; 
+    margin: 10px auto;
+    padding: 5px;
+    font-size: 1rem;
+}
+
+@media (min-width: 768px){
+    main{
+        width: 80%;
+        margin: auto ;
+    }
+    form{
+        width: 80%;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+    header, footer{
+        margin: auto;
+        width: 70%;
+    }
+    form label{
+        font-size:larger;
+    }
+    #submit{
+        width: 30%;
+        margin: auto;
+        padding: 10px;
+    }
+}

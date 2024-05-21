@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Product Review Form - WDD 131 Product Review Review Assignment</title>
+        <meta name="description" content="">
+        <meta name="author"  content="Kordell Farley">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link  href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"  rel="stylesheet">
+        <link rel="stylesheet" href="styles/form.css">
+        <script src="scripts/form.js" defer></script>
+    </head>
+<body>
+    <header>
+        <h1>Product Review</h1>
+    </header>
+    <main>
+        <form id="reviewForm" action="review.html" method="get" onsubmit="handleFormSubmit()">
+            <label for="productName">Product Name:</label>
+            <br>
+            <select name="productName" id="productName">
+                <option value="" disabled selected>Select a product</option>
+            </select>
+            <br><br>
+            <label>Overall Rating:</label>
+            <div>
+                <input type="radio" id="rating1" name="rating" value="1" required>
+                <label for="rating1">1 ☆</label>
+                <input type="radio" id="rating2" name="rating" value="2">
+                <label for="rating2">2 ☆☆</label>
+                <input type="radio" id="rating3" name="rating" value="3">
+                <label for="rating3">3 ☆☆☆</label>
+                <input type="radio" id="rating4" name="rating" value="4">
+                <label for="rating4">4 ☆☆☆☆</label>
+                <input type="radio" id="rating5" name="rating" value="5">
+                <label for="rating5">5 ☆☆☆☆☆</label>
+            </div>
+            <br><br>
+            <label for="installationDate">Date of Installation:</label>
+            <input type="date" id="installationDate" name="installationDate" required>
+            <br><br>
+            <label>Which features did you find useful in the product? <br> (Check all that apply)</label>
+            <div>
+                <input type="checkbox" id="feature1" name="features" value="Feature 1">
+                <label for="feature1">Durability</label>
+                <input type="checkbox" id="feature2" name="features" value="Feature 2">
+                <label for="feature2">Ease of Use</label>
+                <input type="checkbox" id="feature3" name="features" value="Feature 3">
+                <label for="feature3">Performance</label>
+                <input type="checkbox" id="feature4" name="features" value="Feature 4">
+                <label for="feature4">Design</label>
+            </div>
+            <br><br>
+            <label for="review">Written Review: <span>Optional</span></label>
+            <br>
+            <textarea id="review" name="review"></textarea>
+            <br><br>
+            <label for="name">Your Name: <span>Optional</span></label>
+            <br>
+            <input type="text" id="name" name="name">
+            <br><br>
+            <input id="submit" type="submit" value="Sumbit Review">
+        </form>
+    </main>
+    <footer>
+        <p>&copy;<span id="currentyear"></span>Kordell Farley Idaho</p>
+        <p><span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>
