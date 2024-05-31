@@ -1,0 +1,1097 @@
+{
+    "restaurants": [
+        {
+            "name": "Taco Box",
+            "location": {
+                "street": "South 2nd W, ste b",
+                "city": "Rexburg",
+                "state": "ID"
+            },
+            "phone": "(208)-757-9057",
+            "price_range": "$$",
+            "cuisine": "Mexican",
+            "type": "Walk up",
+            "rating": "4.7"
+        },
+        {
+            "name": "Jb's",
+            "location": {
+                "street": "150 W Main",
+                "city": "Rexburg",
+                "state": "ID"
+            },
+            "phone": "(208)-356-4927",
+            "price_range": "$$",
+            "cuisine": "American",
+            "type": "Sit down",
+            "rating": "3.6"
+        },
+        {
+            "name": "Wendy's",
+            "location": {
+                "street": "1117 S Yellowstone Hwy",
+                "city": "Rexburg",
+                "state": "ID"
+            },
+            "phone": "(208)-497-0075",
+            "price_range": "$",
+            "cuisine": "American",
+            "type": "Fast Food",
+            "rating": "3.9"
+        },
+        {
+            "name": "Denny's",
+            "location": {
+                "street": "585 N 2nd E",
+                "city": "Rexburg",
+                "state": "ID"
+            },
+            "phone": "(208)-701-1490",
+            "price_range": "$",
+            "cuisine": "American",
+            "type": "Sit down",
+            "rating": "3.8"
+        },
+        {
+            "name": "Krispy Krunchy Chicken",
+            "location": {
+                "street": "1175 W Main",
+                "city": "Rexburg",
+                "state": "ID"
+            },
+            "phone": "(208)-356-5448",
+            "price_range": "$",
+            "cuisine": "American",
+            "type": "Walk up",
+            "rating": "4.3"
+        },
+        {
+            "name": "McDonald's",
+            "location": {
+                "street": "850 University Blvd",
+                "city": "Rexburg",
+                "state": "ID"
+            },
+            "phone": "(208)-356-6141",
+            "price_range": "$",
+            "cuisine": "American",
+            "type": "Fast food",
+            "rating": "3.9"
+        },
+        {
+            "name": "Burger King",
+            "location": {
+                "street": "944 University Blvd",
+                "city": "Rexburg",
+                "state": "ID"
+            },
+            "phone": "(208)-356-5128",
+            "price_range": "$",
+            "cuisine": "American",
+            "type": "Fast food",
+            "rating": "3.7"
+        },
+        {
+            "name": "Subway",
+            "location": {
+                "street": "321 N 2nd E",
+                "city": "Rexburg",
+                "state": "ID"
+            },
+            "phone": "(208)-356-8234",
+            "price_range": "$",
+            "cuisine": "American",
+            "type": "Fast Food",
+            "rating": "4.0"
+        },
+        {
+            "name": "Taqueria El Pollo Loco Jr.",
+            "location": {
+                "street": "250 W Main",
+                "city": "Rexburg",
+                "state": "ID"
+            },
+            "phone": "(986)-219-6038",
+            "price_range": "$",
+            "cuisine": "Mexican",
+            "type": "Walk up",
+            "rating": "4.8"
+        },
+        {
+            "name": "Jimmy John's",
+            "location": {
+                "street": "109 S 2nd W",
+                "city": "Rexburg",
+                "state": "ID"
+            },
+            "phone": "(208)-656-0556",
+            "price_range": "$",
+            "cuisine": "American",
+            "type": "Fast food",
+            "rating": "3.8"
+        },
+        {
+            "name": "Steak N' Berries",
+            "location": {
+                "street": "250 W Main",
+                "city": "Rexburg",
+                "state": "ID"
+            },
+            "phone": "",
+            "price_range": "$",
+            "cuisine": "American",
+            "type": "Fast food",
+            "rating": "4.7"
+        },
+        {
+            "name": "Righteous Slice",
+            "location": {
+                "street": "175 W 2nd S",
+                "city": "Rexburg",
+                "state": "ID"
+            },
+            "phone": "(208) 359-2324",
+            "price_range": "$$ - $$$",
+            "cuisine": "Italian",
+            "type": "Sit Down",
+            "rating": "5.0"
+        },
+        {
+            "name": "Blister's BBQ",
+            "location": {
+                "street": "321 N 2nd E",
+                "city": "Rexburg",
+                "state": "ID"
+            },
+            "phone": "(208) 356-3090",
+            "price_range": "$$",
+            "cuisine": "American",
+            "type": "Sit Down",
+            "rating": "4.5"
+        },
+        {
+            "name": "The Hickory",
+            "location": {
+                "street": "1515 W Main St",
+                "city": "Rexburg",
+                "state": "ID"
+            },
+            "phone": "(208) 359-2328",
+            "price_range": "$$ - $$$",
+            "cuisine": "American",
+            "type": "Sit Down",
+            "rating": "4.0"
+        },
+        {
+            "name": "Fresco Kitchen & Grill",
+            "location": {
+                "street": "1110 S Yellowstone Hwy",
+                "city": "Rexburg",
+                "state": "ID"
+            },
+            "phone": "(208) 497-0480",
+            "price_range": "$$ - $$$",
+            "cuisine": "American",
+            "type": "Sit Down",
+            "rating": "4.5"
+        },
+        {
+            "name": "Pizza Pie Cafe",
+            "location": {
+                "street": "152 S 2nd W",
+                "city": "Rexburg",
+                "state": "ID"
+            },
+            "phone": "(208) 359-0067",
+            "price_range": "$$",
+            "cuisine": "Italian, American",
+            "type": "Sit Down",
+            "rating": "4.2"
+        },
+        {
+            "name": "Millhollow Frozen Yogurt",
+            "location": {
+                "street": "48 S 1st E",
+                "city": "Rexburg",
+                "state": "ID"
+            },
+            "phone": "(208) 356-7852",
+            "price_range": "$",
+            "cuisine": "Dessert, American",
+            "type": "Sit Down",
+            "rating": "4.0"
+        },
+        {
+            "name": "Original Thai",
+            "location": {
+                "street": "157 W Main St",
+                "city": "Rexburg",
+                "state": "ID"
+            },
+            "phone": "(208) 356-0300",
+            "price_range": "$$ - $$$",
+            "cuisine": "Asian",
+            "type": "Sit Down",
+            "rating": "4.5"
+        },
+        {
+            "name": "Taqueria El Rancho",
+            "location": {
+                "street": "313 N 2nd E",
+                "city": "Rexburg",
+                "state": "ID"
+            },
+            "phone": "(208) 359-3055",
+            "price_range": "$",
+            "cuisine": "Mexican",
+            "type": "Sit Down",
+            "rating": "4.3"
+        },
+        {
+            "name": "Costa Vida",
+            "location": {
+                "street": "485 N 2nd E",
+                "city": "Rexburg",
+                "state": "ID"
+            },
+            "phone": "(208) 356-0214",
+            "price_range": "$$",
+            "cuisine": "Mexican",
+            "type": "Sit Down",
+            "rating": "4.0"
+        },
+        {
+            "name": "Soda Vine",
+            "location": {
+                "street": "239 N 2nd E",
+                "city": "Rexburg",
+                "state": "ID"
+            },
+            "phone": "(208) 356-0763",
+            "price_range": "$",
+            "cuisine": "Drink",
+            "type": "Fast Food",
+            "rating": "4.1"
+        },
+        {
+            "name": "June's Place",
+            "location": {
+                "street": "20 College Ave",
+                "city": "Rexburg",
+                "state": "ID"
+            },
+            "phone": "(208) 356-7890",
+            "price_range": "$",
+            "cuisine": "Drink, Dessert",
+            "type": "Sit Down",
+            "rating": "4.3"
+        },
+        {
+            "name": "Crumbl Cookies Rexburg",
+            "location": {
+                "street": "490 N 2nd E",
+                "city": "Rexburg",
+                "state": "ID"
+            },
+            "phone": "(208) 356-6171",
+            "price_range": "$",
+            "cuisine": "Dessert",
+            "type": "Fast Food",
+            "rating": "4.5"
+        },
+        {
+            "name": "Taco Time",
+            "location": {
+                "street": "134 W Main St",
+                "city": "Rexburg",
+                "state": "ID"
+            },
+            "phone": "(208) 356-8322",
+            "price_range": "$",
+            "cuisine": "Mexican",
+            "type": "Fast Food",
+            "rating": "3.9"
+        },
+        {
+            "name": "Freddy's Frozen Custard & Steakburgers",
+            "location": {
+                "street": "585 N 2nd E",
+                "city": "Rexburg",
+                "state": "ID"
+            },
+            "phone": "(208) 356-6962",
+            "price_range": "$",
+            "cuisine": "American",
+            "type": "Fast Food",
+            "rating": "4.2"
+        },
+        {
+            "name": "Tacos Tepito",
+            "location": {
+                "street": "157 W Main St",
+                "city": "Rexburg",
+                "state": "ID"
+            },
+            "phone": "(208) 356-0300",
+            "price_range": "$",
+            "cuisine": "Mexican",
+            "type": "Fast Food",
+            "rating": "4.0"
+        },
+        {
+            "name": "White Sparrow Country Store",
+            "location": {
+                "street": "4141 S 2nd W",
+                "city": "Rexburg",
+                "state": "ID"
+            },
+            "phone": "(208) 390-0940",
+            "price_range": "$",
+            "cuisine": "Dessert",
+            "type": "Sit Down",
+            "rating": "4.4"
+        },
+        {
+            "name": "Royal Soda Co",
+            "location": {
+                "street": "545 N 2nd E",
+                "city": "Rexburg",
+                "state": "ID"
+            },
+            "phone": "(208) 356-3322",
+            "price_range": "$",
+            "cuisine": "Drink",
+            "type": "Fast Food",
+            "rating": "4.3"
+        },
+        {
+            "name": "Dong's Sushi",
+            "location": {
+                "street": "315 E Main St",
+                "city": "Rexburg",
+                "state": "ID"
+            },
+            "phone": "(208) 656-8888",
+            "price_range": "$$",
+            "cuisine": "Japanese",
+            "type": "Sit Down",
+            "rating": "4.3"
+        },
+        {
+            "name": "Burger Palace",
+            "location": {
+                "street": "789 Oak St",
+                "city": "Rigby",
+                "state": "ID"
+            },
+            "phone": "(208) 745-5200",
+            "price_range": "$",
+            "cuisine": "American",
+            "type": "Fast Food",
+            "rating": "3.8"
+        },
+        {
+            "name": "Lil' Mike's Bar-B-Que",
+            "location": {
+                "street": "116 S Clark St",
+                "city": "Rigby",
+                "state": "ID"
+            },
+            "phone": "(208) 534-1802",
+            "price_range": "$$",
+            "cuisine": "American",
+            "type": "Sit Down",
+            "rating": "4.6"
+        },
+        {
+            "name": "The Great Bambino",
+            "location": {
+                "street": "205 Stockham Blvd",
+                "city": "Rigby",
+                "state": "ID"
+            },
+            "phone": "(208) 745-5767",
+            "price_range": "$",
+            "cuisine": "Italian, American",
+            "type": "Sit Down",
+            "rating": "4.7"
+        },
+        {
+            "name": "New Star Restaurant",
+            "location": {
+                "street": "207 Stockham Blvd",
+                "city": "Rigby",
+                "state": "ID"
+            },
+            "phone": "(208) 745-8733",
+            "price_range": "$",
+            "cuisine": "Chinese",
+            "type": "Sit Down",
+            "rating": "4.3"
+        },
+        {
+            "name": "Cookie Cottage",
+            "location": {
+                "street": "143 S Clark St",
+                "city": "Rigby",
+                "state": "ID"
+            },
+            "phone": "(208) 745-6255",
+            "price_range": "$$",
+            "cuisine": "Dessert",
+            "type": "Sit Down",
+            "rating": "4.7"
+        },
+        {
+            "name": "Papa Kelsey's Pizza & Subs",
+            "location": {
+                "street": "200 S State St",
+                "city": "Rigby",
+                "state": "ID"
+            },
+            "phone": "(208) 745-0335",
+            "price_range": "$",
+            "cuisine": "American",
+            "type": "Sit Down",
+            "rating": "4.2"
+        },
+        {
+            "name": "Champs Chicken",
+            "location": {
+                "street": "182 S State St",
+                "city": "Rigby",
+                "state": "ID"
+            },
+            "phone": "(208) 745-9488",
+            "price_range": "$",
+            "cuisine": "American",
+            "type": "Fast Food",
+            "rating": "4.0"
+        },
+        {
+            "name": "Wendy's",
+            "location": {
+                "street": "510 Rigby Lake Dr",
+                "city": "Rigby",
+                "state": "ID"
+            },
+            "phone": "(208) 745-6440",
+            "price_range": "$",
+            "cuisine": "American",
+            "type": "Fast Food",
+            "rating": "3.8"
+        },
+        {
+            "name": "Arctic Circle Restaurant",
+            "location": {
+                "street": "150 N State St",
+                "city": "Rigby",
+                "state": "ID"
+            },
+            "phone": "(208) 745-8400",
+            "price_range": "$",
+            "cuisine": "American",
+            "type": "Fast Food",
+            "rating": "3.9"
+        },
+        {
+            "name": "Domino's Pizza",
+            "location": {
+                "street": "295 Farnsworth Way",
+                "city": "Rigby",
+                "state": "ID"
+            },
+            "phone": "(208) 745-3030",
+            "price_range": "$",
+            "cuisine": "American",
+            "type": "Fast Food",
+            "rating": "4.1"
+        },
+        {
+            "name": "Subway",
+            "location": {
+                "street": "200 S State St",
+                "city": "Rigby",
+                "state": "ID"
+            },
+            "phone": "(208) 745-7666",
+            "price_range": "$",
+            "cuisine": "American",
+            "type": "Fast Food",
+            "rating": "4.0"
+        },
+        {
+            "name": "El Jaliciense",
+            "location": {
+                "street": "119 S Bridge St",
+                "city": "St. Anthony",
+                "state": "ID"
+            },
+            "phone": "(208) 624-1124",
+            "price_range": "$$",
+            "cuisine": "Mexican",
+            "type": "Sit Down",
+            "rating": "4.5"
+        },
+        {
+            "name": "Big Js Burgers & Pizza",
+            "location": {
+                "street": "245 N Bridge St",
+                "city": "St. Anthony",
+                "state": "ID"
+            },
+            "phone": "(208) 624-3969",
+            "price_range": "$",
+            "cuisine": "American",
+            "type": "Sit Down",
+            "rating": "4.1"
+        },
+        {
+            "name": "Mad Moose Pizza",
+            "location": {
+                "street": "593 N 2600 E",
+                "city": "St. Anthony",
+                "state": "ID"
+            },
+            "phone": "(208) 624-7499",
+            "price_range": "$$",
+            "cuisine": "American",
+            "type": "Sit Down",
+            "rating": "4.3"
+        },
+        {
+            "name": "Crissy's Chicken To Go",
+            "location": {
+                "street": "110 S Bridge St",
+                "city": "St. Anthony",
+                "state": "ID"
+            },
+            "phone": "(208) 624-3772",
+            "price_range": "$",
+            "cuisine": "American",
+            "type": "Fast Food",
+            "rating": "4.6"
+        },
+        {
+            "name": "Fong's Cafe",
+            "location": {
+                "street": "215 E Yellowstone St",
+                "city": "St. Anthony",
+                "state": "ID"
+            },
+            "phone": "(208) 624-6000",
+            "price_range": "$",
+            "cuisine": "Chinese",
+            "type": "Sit Down",
+            "rating": "4.2"
+        },
+        {
+            "name": "La Perla Tapatia",
+            "location": {
+                "street": "140 S Bridge St",
+                "city": "St. Anthony",
+                "state": "ID"
+            },
+            "phone": "(208) 624-3100",
+            "price_range": "$",
+            "cuisine": "Mexican",
+            "type": "Sit Down",
+            "rating": "4.4"
+        },
+        {
+            "name": "The Fountain At Falls Drug",
+            "location": {
+                "street": "126 S Bridge St",
+                "city": "St. Anthony",
+                "state": "ID"
+            },
+            "phone": "(208) 624-3661",
+            "price_range": "$",
+            "cuisine": "American",
+            "type": "Sit Down",
+            "rating": "4.5"
+        },
+        {
+            "name": "Tacos Don Javis",
+            "location": {
+                "street": "2155 S Yellowstone Hwy",
+                "city": "St. Anthony",
+                "state": "ID"
+            },
+            "phone": "(208) 351-7313",
+            "price_range": "$",
+            "cuisine": "Mexican",
+            "type": "Sit Down",
+            "rating": "4.6"
+        },
+        {
+            "name": "Sandpiper",
+            "location": {
+                "street": "750 Lindsay Blvd",
+                "city": "Idaho Falls",
+                "state": "ID"
+            },
+            "phone": "(208) 524-3344",
+            "price_range": "$$ - $$$",
+            "cuisine": "Asian",
+            "type": "Sit Down",
+            "rating": "4.3"
+        },
+        {
+            "name": "Jakers Bar and Grill",
+            "location": {
+                "street": "851 Lindsay Blvd",
+                "city": "Idaho Falls",
+                "state": "ID"
+            },
+            "phone": "(208) 524-5240",
+            "price_range": "$$ - $$$",
+            "cuisine": "American",
+            "type": "Sit Down",
+            "rating": "4.7"
+        },
+        {
+            "name": "Copper Rill Restaurant",
+            "location": {
+                "street": "415 River Pkwy",
+                "city": "Idaho Falls",
+                "state": "ID"
+            },
+            "phone": "(208) 529-5800",
+            "price_range": "$$ - $$$",
+            "cuisine": "American",
+            "type": "Sit Down",
+            "rating": "4.6"
+        },
+        {
+            "name": "The SnakeBite Restaurant",
+            "location": {
+                "street": "401 Park Ave",
+                "city": "Idaho Falls",
+                "state": "ID"
+            },
+            "phone": "(208) 525-2522",
+            "price_range": "$$ - $$$",
+            "cuisine": "American",
+            "type": "Sit Down",
+            "rating": "4.6"
+        },
+        {
+            "name": "Krung Thep Thai Cuisine",
+            "location": {
+                "street": "366 Shoup Ave",
+                "city": "Idaho Falls",
+                "state": "ID"
+            },
+            "phone": "(208) 881-5150",
+            "price_range": "$$ - $$$",
+            "cuisine": "Asian",
+            "type": "Sit Down",
+            "rating": "4.5"
+        },
+        {
+            "name": "Smokin Fins",
+            "location": {
+                "street": "370 Memorial Dr",
+                "city": "Idaho Falls",
+                "state": "ID"
+            },
+            "phone": "(208) 888-3467",
+            "price_range": "$$ - $$$",
+            "cuisine": "American",
+            "type": "Sit Down",
+            "rating": "4.4"
+        },
+        {
+            "name": "Pitmaster BarBQue Company",
+            "location": {
+                "street": "1305 Fremont Ave",
+                "city": "Idaho Falls",
+                "state": "ID"
+            },
+            "phone": "(208) 715-9820",
+            "price_range": "$$ - $$$",
+            "cuisine": "American",
+            "type": "Sit Down",
+            "rating": "4.3"
+        },
+        {
+            "name": "Fuji Sushi & Hibachi",
+            "location": {
+                "street": "2625 S 25th E",
+                "city": "Idaho Falls",
+                "state": "ID"
+            },
+            "phone": "(208) 524-2871",
+            "price_range": "$$",
+            "cuisine": "Japanese",
+            "type": "Sit Down",
+            "rating": "4.3"
+        },
+        {
+            "name": "Abracadabras",
+            "location": {
+                "street": "1438 W Broadway St",
+                "city": "Idaho Falls",
+                "state": "ID"
+            },
+            "phone": "(208) 709-8297",
+            "price_range": "$$",
+            "cuisine": "American",
+            "type": "Sit Down",
+            "rating": "4.5"
+        },
+        {
+            "name": "O'Brady's Family Restaurant",
+            "location": {
+                "street": "2635 Channing Way",
+                "city": "Idaho Falls",
+                "state": "ID"
+            },
+            "phone": "(208) 552-3722",
+            "price_range": "$$",
+            "cuisine": "American",
+            "type": "Sit Down",
+            "rating": "4.4"
+        },
+        {
+            "name": "Great Harvest Bakery & Cafe",
+            "location": {
+                "street": "360 A St",
+                "city": "Idaho Falls",
+                "state": "ID"
+            },
+            "phone": "(208) 522-7445",
+            "price_range": "$$",
+            "cuisine": "American",
+            "type": "Sit Down",
+            "rating": "4.5"
+        },
+        {
+            "name": "Mama Fla Authentic Italian Cuisine",
+            "location": {
+                "street": "385 River Pkwy",
+                "city": "Idaho Falls",
+                "state": "ID"
+            },
+            "phone": "(208) 529-2271",
+            "price_range": "$$",
+            "cuisine": "Italian",
+            "type": "Sit Down",
+            "rating": "4.4"
+        },
+        {
+            "name": "LongHorn Steakhouse",
+            "location": {
+                "street": "245 Houston Cir",
+                "city": "Idaho Falls",
+                "state": "ID"
+            },
+            "phone": "(208) 525-5040",
+            "price_range": "$$",
+            "cuisine": "American",
+            "type": "Sit Down",
+            "rating": "4.3"
+        },
+        {
+            "name": "The Firehouse Grill",
+            "location": {
+                "street": "2891 S 25th E",
+                "city": "Idaho Falls",
+                "state": "ID"
+            },
+            "phone": "(208) 524-1740",
+            "price_range": "$$",
+            "cuisine": "American",
+            "type": "Sit Down",
+            "rating": "4.2"
+        },
+        {
+            "name": "North Hi-Way Cafe",
+            "location": {
+                "street": "460 N Main St",
+                "city": "Idaho Falls",
+                "state": "ID"
+            },
+            "phone": "(208) 522-3355",
+            "price_range": "$",
+            "cuisine": "American",
+            "type": "Sit Down",
+            "rating": "4.2"
+        },
+        {
+            "name": "El Vaquero Restaurant",
+            "location": {
+                "street": "960 S Broadway St",
+                "city": "Blackfoot",
+                "state": "ID"
+            },
+            "phone": "(208) 782-1300",
+            "price_range": "$",
+            "cuisine": "Mexican",
+            "type": "Sit Down",
+            "rating": "4.6"
+        },
+        {
+            "name": "Homestead Family Restaurant",
+            "location": {
+                "street": "1355 Parkway Dr",
+                "city": "Blackfoot",
+                "state": "ID"
+            },
+            "phone": "(208) 785-0700",
+            "price_range": "$$",
+            "cuisine": "American",
+            "type": "Sit Down",
+            "rating": "4.2"
+        },
+        {
+            "name": "New Hong Kong Restaurant",
+            "location": {
+                "street": "156 N Broadway St",
+                "city": "Blackfoot",
+                "state": "ID"
+            },
+            "phone": "(208) 785-7102",
+            "price_range": "$",
+            "cuisine": "Chinese",
+            "type": "Sit Down",
+            "rating": "3.7"
+        },
+        {
+            "name": "Vazquez Mexican Restaurant",
+            "location": {
+                "street": "145 Bridge St",
+                "city": "Blackfoot",
+                "state": "ID"
+            },
+            "phone": "(208) 785-6363",
+            "price_range": "$",
+            "cuisine": "Mexican",
+            "type": "Sit Down",
+            "rating": "4.0"
+        },
+        {
+            "name": "Tommy Vaughn's Grill",
+            "location": {
+                "street": "850 Jensen Grove Dr",
+                "city": "Blackfoot",
+                "state": "ID"
+            },
+            "phone": "(208) 785-0800",
+            "price_range": "$$",
+            "cuisine": "American",
+            "type": "Sit Down",
+            "rating": "4.2"
+        },
+        {
+            "name": "Pasta Paradise",
+            "location": {
+                "street": "654 Cedar St",
+                "city": "Blackfoot",
+                "state": "ID"
+            },
+            "phone": "(208) 785-8888",
+            "price_range": "$$$",
+            "cuisine": "Italian",
+            "type": "Sit Down",
+            "rating": "4.7"
+        },
+        {
+            "name": "Smokin' Gun BBQ",
+            "location": {
+                "street": "208 W Bridge St",
+                "city": "Blackfoot",
+                "state": "ID"
+            },
+            "phone": "(208) 782-0788",
+            "price_range": "$$",
+            "cuisine": "American",
+            "type": "Sit Down",
+            "rating": "4.4"
+        },
+        {
+            "name": "Teton House",
+            "location": {
+                "street": "",
+                "city": "Blackfoot",
+                "state": "ID"
+            },
+            "phone": "(208) 785-2382",
+            "price_range": "$$",
+            "cuisine": "American",
+            "type": "Sit Down",
+            "rating": "4.5"
+        },
+        {
+            "name": "7eighty5 Restaurant & Pub",
+            "location": {
+                "street": "310 N Meridian St",
+                "city": "Blackfoot",
+                "state": "ID"
+            },
+            "phone": "(208) 782-4938",
+            "price_range": "$$",
+            "cuisine": "American",
+            "type": "Sit Down",
+            "rating": "4.2"
+        },
+        {
+            "name": "Mudslingers Drive Thru Coffee",
+            "location": {
+                "street": "544 E Walker St",
+                "city": "Blackfoot",
+                "state": "ID"
+            },
+            "phone": "(208) 785-0865",
+            "price_range": "$",
+            "cuisine": "Drink",
+            "type": "Fast Food",
+            "rating": "4.8"
+        },
+        {
+            "name": "El Mirador",
+            "location": {
+                "street": "620 W Bridge St",
+                "city": "Blackfoot",
+                "state": "ID"
+            },
+            "phone": "(208) 785-1595",
+            "price_range": "$",
+            "cuisine": "Mexican",
+            "type": "Sit Down",
+            "rating": "4.0"
+        },
+        {
+            "name": "Sandpiper Restaurant",
+            "location": {
+                "street": "1400 Bench Rd",
+                "city": "Pocatello",
+                "state": "ID"
+            },
+            "phone": "(208) 233-1000",
+            "price_range": "$$ - $$$",
+            "cuisine": "American",
+            "type": "Sit Down",
+            "rating": "4.5"
+        },
+        {
+            "name": "Elmer's Restaurant",
+            "location": {
+                "street": "851 S 5th Ave",
+                "city": "Pocatello",
+                "state": "ID"
+            },
+            "phone": "(208) 232-9114",
+            "price_range": "$$ - $$$",
+            "cuisine": "American",
+            "type": "Sit Down",
+            "rating": "4.0"
+        },
+        {
+            "name": "Portneuf Valley Brewing",
+            "location": {
+                "street": "615 S 1st Ave",
+                "city": "Pocatello",
+                "state": "ID"
+            },
+            "phone": "(208) 232-1644",
+            "price_range": "$$ - $$$",
+            "cuisine": "American",
+            "type": "Sit Down",
+            "rating": "4.0"
+        },
+        {
+            "name": "Cafe Tuscano",
+            "location": {
+                "street": "2231 E Center St",
+                "city": "Pocatello",
+                "state": "ID"
+            },
+            "phone": "(208) 233-7702",
+            "price_range": "$$ - $$$",
+            "cuisine": "Italian",
+            "type": "Sit Down",
+            "rating": "4.5"
+        },
+        {
+            "name": "Buddy's Italian Restaurant",
+            "location": {
+                "street": "625 E Center St",
+                "city": "Pocatello",
+                "state": "ID"
+            },
+            "phone": "(208) 233-1172",
+            "price_range": "$$ - $$$",
+            "cuisine": "Italian",
+            "type": "Sit Down",
+            "rating": "4.4"
+        },
+        {
+            "name": "Sumisu",
+            "location": {
+                "street": "309 E Center St",
+                "city": "Pocatello",
+                "state": "ID"
+            },
+            "phone": "(208) 233-2328",
+            "price_range": "$$ - $$$",
+            "cuisine": "Japanese",
+            "type": "Sit Down",
+            "rating": "4.4"
+        },
+        {
+            "name": "Jakers Bar & Grill",
+            "location": {
+                "street": "1598 Flaming Gorge Way",
+                "city": "Pocatello",
+                "state": "ID"
+            },
+            "phone": "(208) 232-1317",
+            "price_range": "$$ - $$$",
+            "cuisine": "American",
+            "type": "Sit Down",
+            "rating": "4.5"
+        },
+        {
+            "name": "Texas Roadhouse",
+            "location": {
+                "street": "560 Bullock St",
+                "city": "Pocatello",
+                "state": "ID"
+            },
+            "phone": "(208) 237-7427",
+            "price_range": "$$ - $$$",
+            "cuisine": "American",
+            "type": "Sit Down",
+            "rating": "4.4"
+        },
+        {
+            "name": "Goody's Deli",
+            "location": {
+                "street": "905 S 5th Ave",
+                "city": "Pocatello",
+                "state": "ID"
+            },
+            "phone": "(208) 233-0830",
+            "price_range": "$",
+            "cuisine": "American",
+            "type": "Sit Down",
+            "rating": "4.4"
+        },
+        {
+            "name": "Wingers Restaurant",
+            "location": {
+                "street": "750 Yellowstone Ave",
+                "city": "Pocatello",
+                "state": "ID"
+            },
+            "phone": "(208) 478-7777",
+            "price_range": "$$ - $$$",
+            "cuisine": "American",
+            "type": "Sit Down",
+            "rating": "4.0"
+        }
+       
+    ]
+}

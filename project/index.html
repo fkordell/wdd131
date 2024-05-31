@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Guide - Home</title>
+    <link rel="stylesheet" href="./styles/project.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link  href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"  rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-container">
+                <a href="index.html"><img src="images/logo.png" alt="Restaurant Guide Logo" class="logo" loading="lazy"></a>
+                <div class="hamburger-menu" id="hamburger-menu">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="listings.html">Restaurants</a></li>
+                    <li><a href="details.html">Details</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <img src="./images/hero.webp" alt="Charming small town with restaurants">
+            <div class="hero-text">
+                <h1>Welcome to the Local Restaurant Guide</h1>
+                <p>Explore the best dining options in Rexburg, Idaho Falls, Pocatello and surrounding areas.</p>
+                <button id="listings-button">Find Local restaurants near you!</button>
+            </div>
+        </section>
+        <h2>Featured Restaurants</h2>
+        <section id="featured-restaurants"  class="cards-container">
+        </section>
+    </main>
+    <footer>
+        <p>&copy;<span id="currentyear"></span>Kordell Farley Idaho</p>
+        <p><span id="lastModified"></span></p>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>
