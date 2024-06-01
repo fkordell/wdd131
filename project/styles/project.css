@@ -241,11 +241,23 @@ button:hover {
 .reviews-container {
     margin-top: 20px;
 }
+#review-form{
+    width: 50%;
+}
+#previous-reviews{
+    border: 2px solid black;
+    width: 20%;
+    margin: auto;
+}
+#previous-reviews p{
+    text-align: center;
+}
 footer{
     background-color: #3D6082;
     padding: 10px 0;
     text-align: center;
     color: white;
+    margin-top: 20px;
 }
 @media (min-width: 600px) {
     nav ul {

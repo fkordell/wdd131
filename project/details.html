@@ -31,30 +31,28 @@
         <h2>Restaurant Details</h2>
         <section id="restaurant-details">
         </section>
-        <section id="review-form">
-            <h2>Submit a Review</h2>
-            <form>
-                <div>
-                    <label for="review-name">Your name</label>
-                    <input type="text" id="review-name" name="review-name" placeholder="Your name" required>
-                </div>
-                <div>
-                    <label for="review-restaurant">Restaurant name</label>
-                    <input type="text" id="review-restaurant" name="review-restaurant" placeholder="Restaurant name" required>
-                </div>
-                <div>
-                    <label for="review-text">Your review</label>
-                    <textarea id="review-text" name="review-text" placeholder="Your review" required></textarea>
-                </div>
-                <div>
-                    <label for="review-rating">Rating (1-5)</label>
-                    <input type="number" id="review-rating" name="review-rating" min="1" max="5" placeholder="Rating (1-5)" required>
-                </div>
-                <div>
-                    <button type="submit">Submit</button>
-                </div>
-            </form>            
-        </section>
+        <h2>Submit a Review</h2>
+        <form id="review-form">
+            <div>
+                <label for="review-name">Your name</label>
+                <input type="text" id="review-name" name="review-name" placeholder="Your name" required>
+            </div>
+            <div>
+                <label for="review-restaurant">Restaurant name</label>
+                <input type="text" id="review-restaurant" name="review-restaurant" placeholder="Restaurant name" required>
+            </div>
+            <div>
+                <label for="review-text">Your review</label>
+                <textarea id="review-text" name="review-text" placeholder="Your review" required></textarea>
+            </div>
+            <div>
+                <label for="review-rating">Rating (1-5)</label>
+                <input type="number" id="review-rating" name="review-rating" min="1" max="5" placeholder="Rating (1-5)" required>
+            </div>
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+        </form> 
         <div id="review-modal" class="modal">
             <div class="modal-content">
                 <span class="close">&times;</span>
@@ -62,6 +60,7 @@
             </div>
         </div>
         <div id="previous-reviews" class="reviews-container"></div>
+        <div id="review-count"></div>
     </main>
     <footer>
         <p>&copy;<span id="currentyear"></span>Kordell Farley Idaho</p>
